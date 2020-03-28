@@ -1,0 +1,59 @@
+
+
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower&display=swap');
+
+body {
+    margin: 0px;
+    height: auto;
+    background-image: url(https://www.azamara.com/sites/default/files/heros/japan_hero_2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.POLAROID{
+    display: flex;
+    width: auto;
+    margin-left: 50px;
+    margin-bottom: 10px;
+ }
+
+.perriten{
+    display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	align-content: center;
+    background-color: white;
+    box-shadow: 4px 5px 3px #000000;
+    margin: 15px;
+    padding-top: 15px;
+    padding-bottom: 10px;
+    overflow: hidden;
+    width: 30%;
+    height: 20%;
+
+    -webkit-transition: -webkit-transform .4s 
+    ease-in-out;
+    -ms-transition: -ms-transform .4s ease-in-out;
+    transition: transform .4s ease-in-out;  
+}
+
+figure img {
+  width: 100%;
+}
+
+.perriten:hover {
+    transform:rotate(-20deg);
+    -ms-transform:rotate(-20deg);
+    -webkit-transform:rotate(-20deg);
+}
+
+img{
+    max-width: 90%;
+}
+
+h2{
+    text-align: center;
+    font-family: 'Indie Flower', cursive;
+}
