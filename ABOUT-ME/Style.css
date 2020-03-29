@@ -1,0 +1,388 @@
+
+
+/*
+
+*****************************************
+
+20/3 VER LO DE PROFILE PICTURE POR FAVOR
+
+*****************************************
+
+*/
+
+@import url('https://fonts.googleapis.com/css?family=Solway&display=swap');
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+
+menu-container {
+  display: flex;
+  background-color: white;
+  justify-content: space-evenly;
+  width: auto;
+  height: auto;
+  padding: 2%;
+  margin: auto;
+  text-align: auto;
+}
+
+logo-menu {
+  display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: flex-start;
+	align-items: center;
+	align-content: center;
+  margin: 10px;
+}
+
+nav {
+  font: 16px bold 700;
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  align-items: center;
+  margin: auto;
+  width: auto;
+  float: none;
+  list-style: none;
+  align-content: center;
+  overflow:auto;
+  align-items:flex-end; 
+}
+
+.nav-link {
+  margin: auto;
+}
+
+.nav:hover{
+  background-color: #FF8260;
+}
+.na:active{
+  background-color:#270722;
+}
+.input:focus{
+  background-color: #900048; 
+}
+
+
+li {
+  color: #D33741 ;
+  font-family: 'Solway', serif;
+  padding: 2px;
+  font-size: 20px;
+  list-style: none;
+  display: inline-block;
+  margin: 3%;
+}
+
+body{
+  margin: 0 auto;
+  height: 100%;
+}
+
+.hero-image {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://mir-s3-cdn-cf.behance.net/project_modules/1400_opt_1/2643c693091059.5e5c511d0af63.jpg");
+  height: 700px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.hero-text {
+  display: flex;
+  Justify-content: center;
+  flex-wrap: wrap;
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #FF8260;
+  width: auto;
+  height: auto;
+  margin: auto;
+  padding: 1px;
+}
+
+.First-container {
+  background-color: #270722;
+  display: flexbox;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: center;
+  align-content: space-around;
+  width: auto;
+  height: auto;
+  margin: auto;
+  padding: 1px;
+}
+
+.Second-container {
+  background-color: #900048;
+  background-image: url(https://i.imgur.com/IqFIKmz.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  display: flex;
+  width: auto;
+  height: auto;
+  margin: auto;
+}
+
+.Third-container {
+  /*background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("https://i.imgur.com/4tYnJQB.jpg");*/
+  height: 700px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  background-color: #D33741;
+  display: flex;
+  width: auto;
+  height: auto;
+  margin: auto;
+  padding: 1px;
+}
+
+.Four-container {
+  background-color: #FF8260;
+  display: block;
+  width: auto;
+  height: auto;
+  margin: auto;
+  padding: 1px;
+}
+
+/* SOLUCIONAME ESTO NESTOR */
+
+.profile-picture {
+  display: flex;
+  Justify-content: center;
+  flex-wrap: wrap;
+  text-align: center;
+  width: 50%;
+  overflow: hidden;
+  width: 350px;
+  height: 350px;
+  border-radius: 50%;
+  position: relative;
+}
+
+.logo-img{
+  max-width: 100%;
+}
+
+.about-me {
+  align-content: center;
+  align-items: center;
+  margin: 5%;
+}
+
+.button{
+  align-items: flex-end;
+  background-color: #D33741;
+  border-radius:5px;
+  color:#fff;
+  display: inline;
+  font-size: 28px;
+  font-family:'Solway', serif;
+  font-size: 16px;
+  text-align: center;
+  margin: 0 5px;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.Bottoms-container{
+  align-content: flex-end;
+  align-items: flex-end;
+  align-self: flex-end;
+  height: max-content;
+  width: 700px;
+  margin: 5%;
+}
+
+.button {
+  align-items: flex-end;
+  background-color: #D33741;
+  border-radius:5px;
+  color:#fff;
+  font-size: 28px;
+  font-family:'Solway', serif;
+  font-size: 16px;
+  text-align: center;
+  margin: 0 5px;
+  padding: 10px;
+  cursor: pointer;
+}
+
+    .button:hover{
+      background-color: #FF8260;
+    }
+    .button:active{
+      background-color:#270722;
+    }
+    .input:focus{
+      background-color: #900048; 
+    }
+
+
+.buttom {
+    align-items: flex-end;
+    background-color: #D33741;
+    border-radius:5px;
+    color:#fff;
+    display: inline;
+    font-size: 28px;
+    font-family:'Solway', serif;
+    font-size: 16px;
+    text-align: center;
+    margin: 0 5px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+      .buttom:hover{
+        background-color: #FF8260;
+      }
+      .buttom:active{
+        background-color:#270722;
+      }
+      .input:focus{
+        background-color: #900048; 
+      }
+/*
+.content{
+    align-items: center;
+    background-color: #FF8260; 
+    font-size: 22px;
+    font-kerning: inherit;
+    margin: 0px auto;
+    border-radius: 15px;
+    width: 500px;
+}
+*/
+h1 {
+    color: #D33741;
+    font-size: 36px;
+    font-style: bold;
+    font-family: 'Solway', serif;
+    text-align: center;
+    padding: 10px 5%;
+  }
+  
+h2 {
+    color: whitesmoke;
+    font-size: 28px;
+    font-family:'Solway', serif;
+    text-align: center;
+    margin: 2%;
+    padding: 10px 5% ;
+  }
+
+h3 {
+    color: #900048;
+    font-size: 36px;
+    font-family:'Solway', serif;
+    text-align: center;
+    margin: 2%;
+    padding: 10px 5% ;
+  }
+
+  h4 {
+    color: whitesmoke;
+    font-size: 20px;
+    font-family:'Solway', serif;
+    text-align: center;
+    margin: 2%;
+    padding: 10px 5% ;
+  }
+
+  h5 {
+    color: #FF8260;
+    font-size: 28px;
+    font-family:'Solway', serif;
+    text-align: center;
+    margin: 2%;
+    padding: 10px 5% ;
+  }
+
+p{
+    color: whitesmoke;
+    font-size: 16px;
+    font-family:'Solway', serif;
+    text-align: center;
+    margin: 2%;
+    padding: 10px 5% ;
+  }
+
+.description {
+    color: #ffffff;
+    font-size: 20px;
+    font-family: 'Solway', serif;
+    text-align: center;
+    float: none;
+    margin: 2%;
+    padding: 10px 5% ;
+}
+
+.tachado {
+  text-decoration: line-through;
+}
+
+.form{
+  align-content: center;
+  align-self: center;
+  text-align: center;
+  margin: 6%;
+}
+.input{
+align-content: center;
+padding: 6px;
+
+}
+.suscribe {
+align-content: center;
+padding: 12px;
+font-family: 'Solway', serif;
+text-align: center;
+border-radius:5px;
+background-color: #900048;
+color:#fff;
+}
+
+/*
+.saludos-container {
+  backgronud-color
+  align-items: center;
+  background-color: #330000;
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
+  padding: 30px;
+  
+}
+
+
+.hola,
+.chau {
+  background-color: crimson;
+  border: 2px dotted #333;
+  height: 100px;
+  width: 200px;
+  transition: transform 0.3s ease-in-out 0.2s;
+}
+
+.hola{
+  transform: translate(-1000px, 0);
+}
+.chau{
+  transform: translate(0, 400px);
+}
+
+.saludos-container:hover .hola,
+.saludos-container:hover .chau {
+  transform: translate(0,0);
+}
+
+*/
